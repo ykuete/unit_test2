@@ -1,7 +1,7 @@
 {
   "name": "unit_test2",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.1.0",
+  "description": "demo application for the github actions workshop",
   "main": "index.js",
   "scripts": {
     "test": "jest --coverage"
