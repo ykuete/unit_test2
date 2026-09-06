@@ -1,0 +1,24 @@
+{
+  "name": "unit_test2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ykuete/unit_test2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ykuete/unit_test2/issues"
+  },
+  "homepage": "https://github.com/ykuete/unit_test2#readme",
+  "devDependencies": {
+    "jest": "^30.5.1"
+  }
+}
