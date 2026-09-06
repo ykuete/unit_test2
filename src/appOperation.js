@@ -6,4 +6,7 @@ function add(a, b) {
     return a + b;
 }   
 
-module.exports = { multiply, add };
+module.exports = {
+    multiply,
+    add 
+}
