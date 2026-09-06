@@ -12,3 +12,12 @@ test('add 2 and 3 to equal 5', () => {
 test('subtract 3 from 5 to equal 2', () => {
     expect(appOperation.subtract(5, 3)).toBe(2);
 });
+
+test('divide 6 by 3 to equal 2', () => {
+    expect(appOperation.divide(6, 3)).toBe(2);
+});
+
+test('throws an error when dividing by zero', () => {
+    expect(() => appOperation.divide(6, 0))
+        .toThrow('Cannot divide by zero');
+});
