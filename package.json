@@ -1,8 +1,16 @@
 {
-  "name": "unit_test2",
-  "version": "1.1.0",
+  "name": "@ykuete/unit_test2",
+  "version": "1.1.1",
   "description": "demo application for the github actions workshop",
-  "main": "index.js",
+  "main": "src/appOperation.js",
+  "files": [
+    "src"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ykuete/unit_test2.git"
+  },
+
   "scripts": {
     "test": "jest --coverage"
   },

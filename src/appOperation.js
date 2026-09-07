@@ -3,18 +3,24 @@ function multiply(a, b) {
 }
 
 function add(a, b) {
-    return a + b;
+    const integerA = parseInt(a, 10);
+    const integerB = parseInt(b, 10);
+    return integerA + integerB;
 }  
 
 function subtract(a, b) {
-    return a - b;
+    const integerA = parseInt(a, 10);
+    const integerB = parseInt(b, 10);
+    return integerA - integerB;
 }
 
 function divide(a, b) {
-    if (b === 0) {
+    const integerA = parseInt(a, 10);
+    const integerB = parseInt(b, 10);
+    if (integerB === 0) {
         throw new Error('Cannot divide by zero');
     }
-    return a / b;
+    return integerA / integerB;
 }
 
 module.exports = {
