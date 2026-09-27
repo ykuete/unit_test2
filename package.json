@@ -27,6 +27,6 @@
   },
   "homepage": "https://github.com/ykuete/unit_test2#readme",
   "devDependencies": {
-    "jest": "^30.5.1"
+    "jest": "^30.5.2"
   }
 }
